@@ -16,6 +16,19 @@ We are building a platform, not just a game. Our architecture separates **Input*
 *   **[Game Design Document](https://aerobeat-fitness.github.io/aerobeat-docs/gdd/concept/)**
 *   **[Technical Architecture](https://aerobeat-fitness.github.io/aerobeat-docs/architecture/overview/)**
 
+## 📂 Repository Ecosystem
+
+| Repository | Role | License |
+| :--- | :--- | :--- |
+| **[`aerobeat-assembly-community`](https://github.com/AeroBeat-Fitness/aerobeat-assembly-community)** | The Game Client (Community Edition). | **GPLv3** |
+| **`aerobeat-core`** | The Engine Hub. Contracts, Signals, and Data Types. | **MPL 2.0** |
+| **`aerobeat-input-*`** | Hardware Drivers (Webcam, VR). | **MPL 2.0** |
+| **`aerobeat-ui-core`** | UI Logic Layer (ViewModel). | **MPL 2.0** |
+| **`aerobeat-ui-kit-*`** | Visual Component Libraries. | **MPL 2.0** |
+| **`aerobeat-ui-shell-*`** | Interaction Shells (Mobile vs VR). | **GPLv3** |
+| **`aerobeat-feature-*`** | Gameplay Logic (e.g., Boxing, Flow). | **GPLv3** |
+| **`aerobeat-asset-*`** | Content Packs (Skins, Environments). | **CC BY-NC 4.0** |
+
 ## 🤝 Contributing
 
 We welcome contributions! Please read our **Contributing Guide** and **Code of Conduct** before getting started.
