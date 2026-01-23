@@ -1,4 +1,4 @@
-# Welcome to AeroBeat Fitness
+# Welcome to AeroBeat Workouts
 
 **AeroBeat** is an open-source, modular rhythm game platform designed to democratize fitness gaming. Think of it as the "YouTube of Workout Games"—a place where hardware inputs, gameplay mechanics, and community content can be mixed and matched freely.
 
