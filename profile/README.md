@@ -12,15 +12,15 @@ We are building a platform, not just a game. Our architecture separates **Input*
 
 ## 📚 Documentation
 
-*   **[Official Documentation Site](https://aerobeat-fitness.github.io/aerobeat-docs/)**
-*   **[Game Design Document](https://aerobeat-fitness.github.io/aerobeat-docs/gdd/concept/)**
-*   **[Technical Architecture](https://aerobeat-fitness.github.io/aerobeat-docs/architecture/overview/)**
+*   **[Official Documentation Site](https://aerobeat-workouts.github.io/aerobeat-docs/)**
+*   **[Game Design Document](https://aerobeat-workouts.github.io/aerobeat-docs/gdd/concept/)**
+*   **[Technical Architecture](https://aerobeat-workouts.github.io/aerobeat-docs/architecture/overview/)**
 
 ## 📂 Repository Ecosystem
 
 | Repository | Role | License |
 | :--- | :--- | :--- |
-| **[`aerobeat-assembly-community`](https://github.com/AeroBeat-Fitness/aerobeat-assembly-community)** | The Game Client (Community Edition). | **GPLv3** |
+| **[`aerobeat-assembly-community`](https://github.com/AeroBeat-workouts/aerobeat-assembly-community)** | The Game Client (Community Edition). | **GPLv3** |
 | **`aerobeat-core`** | The Engine Hub. Contracts, Signals, and Data Types. | **MPL 2.0** |
 | **`aerobeat-input-*`** | Hardware Drivers (Webcam, VR). | **MPL 2.0** |
 | **`aerobeat-ui-core`** | UI Logic Layer (ViewModel). | **MPL 2.0** |
