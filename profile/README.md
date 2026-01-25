@@ -18,16 +18,23 @@ We are building a platform, not just a game. Our architecture separates **Input*
 
 ## 📂 Repository Ecosystem
 
-| Repository | Role | License |
-| :--- | :--- | :--- |
-| **[`aerobeat-assembly-community`](https://github.com/AeroBeat-workouts/aerobeat-assembly-community)** | The Game Client (Community Edition). | **GPLv3** |
-| **`aerobeat-core`** | The Engine Hub. Contracts, Signals, and Data Types. | **MPL 2.0** |
-| **`aerobeat-input-*`** | Hardware Drivers (Webcam, VR). | **MPL 2.0** |
-| **`aerobeat-ui-core`** | UI Logic Layer (ViewModel). | **MPL 2.0** |
-| **`aerobeat-ui-kit-*`** | Visual Component Libraries. | **MPL 2.0** |
-| **`aerobeat-ui-shell-*`** | Interaction Shells (Mobile vs VR). | **GPLv3** |
-| **`aerobeat-feature-*`** | Gameplay Logic (e.g., Boxing, Flow). | **GPLv3** |
-| **`aerobeat-asset-*`** | Content Packs (Skins, Environments). | **CC BY-NC 4.0** |
+| Tier | Repository | Role | License |
+| :--- | :--- | :--- | :--- |
+| **Assembly** | **`aerobeat-assembly-*`** | **The Product.** Specific editions (Community, Arcade). | **GPLv3** |
+| **Core** | **`aerobeat-core`** | **The Hub.** Interfaces, Data Types, Global Constants. | **MPL 2.0** |
+| **UI Core** | **`aerobeat-ui-core`** | **UI Logic.** Base classes (ViewModel) for components. | **MPL 2.0** |
+| **Tool** | **`aerobeat-tool-*`** | **Services.** Singleton Managers (ex: APIs, Analytics). | **MPL 2.0** |
+| **Input** | **`aerobeat-input-*`** | **Hardware Drivers.** (Camera, VR, Watch). | **MPL 2.0** |
+| **UI Kit** | **`aerobeat-ui-kit-*`** | **Visual Library.** Themed scenes inheriting UI Core logic. | **MPL 2.0** |
+| **UI Shell** | **`aerobeat-ui-shell-*`** | **Interaction Layer.** Platform-specific screens. | **GPLv3** |
+| **Feature** | **`aerobeat-feature-*`** | **Gameplay Logic.** Mechanics & Base Scenes (Boxing, Flow). | **GPLv3** |
+| **Skins** | **`aerobeat-skins-*`** | **Gameplay Visuals.** Gloves, Targets, Obstacles. | **CC BY-NC 4.0** |
+| **Avatars** | **`aerobeat-avatars-*`** | **Characters.** Player/Coach models. | **CC BY-NC 4.0** |
+| **Cosmetics** | **`aerobeat-cosmetics-*`** | **Accessories.** Hats, Glasses. | **CC BY-NC 4.0** |
+| **Environments** | **`aerobeat-environments-*`** | **Levels.** Lighting, Skyboxes. | **CC BY-NC 4.0** |
+| **Asset** | **`aerobeat-asset-*`** | **System Assets.** UI Icons, Mock Data. | **CC BY-NC 4.0** |
+| **Docs** | **`aerobeat-docs`** | **Manual.** Documentation Website. | **CC BY-NC 4.0** |
+| **Vendor** | **`aerobeat-vendor`** | **3rd Party Tools.** Utilities and Helpers. | *(As Upstream)* |
 
 ## 🤝 Contributing
 
